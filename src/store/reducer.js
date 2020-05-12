@@ -1,7 +1,9 @@
+// Initial state
 const initialState = {
     age:20
 };
 
+// Basic reducdr.
 const reducer = (state=initialState, action) => {
     const newState = {...state};
 
